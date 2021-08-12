@@ -16,7 +16,7 @@ Note app using Django Rest Framework
 # Install all the requirements
 > pip3 install -r requirements.txt
 # Migrate the changes into your database
-> python3 manage.py makemigrations
+> python3 manage.py makemigrations .
 > python manage.py migrate
 # Run the server
 > python manage.py runserver
