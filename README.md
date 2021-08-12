@@ -3,8 +3,8 @@ Note app using Django Rest Framework
 
 ## Quick Start
 
--> open terminal
--> create a new directory
+> open terminal \
+> create a new directory
 
 ### Its better to use virtualenv to separate your notes app from  local environment
 >inside your new directory ,first create a virtual environment using [virtualenv env ]
