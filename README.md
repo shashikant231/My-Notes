@@ -1,5 +1,6 @@
 # My-Notes
-Note app using Django Rest Framework
+>Note app using Django Rest Framework \
+>django-jazzmin - Theme for django admin
 
 ## Quick Start
 
@@ -14,9 +15,9 @@ Note app using Django Rest Framework
 ### Now clone the My note repositery
 > git clone https://github.com/shashikant231/My-Notes.git
 ### Install all the requirements
-> pip3 install -r requirements.txt
+> pip install -r requirements.txt
 ### Migrate the changes into your database
-> python3 manage.py makemigrations \
+> python manage.py makemigrations \
 > python manage.py migrate
 ### Run the server
 > python manage.py runserver
