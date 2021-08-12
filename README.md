@@ -1,5 +1,5 @@
 # My-Notes
-Note app using Django
+Note app using Django Rest Framework
 
 ## Quick Start
 ```

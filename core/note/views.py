@@ -1,6 +1,7 @@
 from rest_framework import viewsets
 from .models import *
 from .serializers import *
+from rest_framework.pagination import PageNumberPagination
 
 # Create your views here.
 
@@ -12,6 +13,7 @@ class TagView(viewsets.ModelViewSet):
     """
     queryset = Tag.objects.all()
     serializer_class = TagSerializer
+    pagination_class = PageNumberPagination
 
 class NoteView(viewsets.ModelViewSet):
     """
@@ -19,4 +21,5 @@ class NoteView(viewsets.ModelViewSet):
     """
     queryset = Note.objects.all()
     serializer_class = NoteSerializer
+    pagination_class = PageNumberPagination
 
